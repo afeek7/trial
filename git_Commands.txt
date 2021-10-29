@@ -1,0 +1,16 @@
+dir					: to view all the directories in the folder
+cd desktop				: move to desktop folder
+cd git_folder				: mode to git_folder
+git init					: use to initialize git in the folder
+git status					: use to view the files in staging area
+*after creating file in the folder
+git status
+git add index.html				: use to add files to the staging area
+git status
+git commit -m "this is my first commit"		: use to commit the files
+*after changes in the file
+git add index.html
+git commit -m "this is my second commit"
+git log					: use to view all the commits
+git checkout 8016b988518092713a48ef60c68318cae7254cdf	: use to move to any commit
+git checkout master			: use to move to master branch
